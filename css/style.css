@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: #555555;
+    box-sizing: border-box;
+    resize: none;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    background-color: #0f0f11;
+}
+/*-*/
+div.title-home{
+    max-width: 800px;
+    height: 15%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121213;
+}
+div.title-home h1{
+    font-size: 3em;
+}
+div.mess{
+    max-width: 400px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #343541;
+}
+div.mess img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+div.mess h3{
+    font-size: 2em;
+    color: #CCCCCC;
+    margin-bottom: 8px;
+}
+div.mess p{
+    color: #545454;
+    margin-bottom: 25px;
+}
+div.mess button{
+    max-width: 160px;
+    min-width: 150px;
+    line-height: 30px;
+    cursor: pointer;
+    border-bottom: 5px solid #0d685f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #26a69a;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    border-radius: calc(150px / 2);
+}
